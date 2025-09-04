@@ -741,14 +741,7 @@
         // Observe all animated sections
         document.querySelectorAll('.section-fade, .slide-in-left, .slide-in-right, .bounce-in').forEach(section => {
             observer.observe(section);
-        });
-
-        // Smooth scroll behavior only
-        window.addEventListener('scroll', () => {
-            // Optional: Add any scroll-based effects here if needed
-        });
-
-       
+        });       
 
         // Enhanced interactivity for skill tags
         document.querySelectorAll('.skill-tag').forEach((tag, index) => {
